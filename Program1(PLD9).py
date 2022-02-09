@@ -14,6 +14,14 @@
 	#- Your code should be in github before Feb12
 
 from fpdf import FPDF
+import json
+
+pdf = FPDF('P', 'cm', 'A4') 
+pdf.add_page()
+
+with open('personalresume.json') as datafile:
+	infos = json.load(datafile)
+
 
 
 

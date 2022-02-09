@@ -1,0 +1,32 @@
+{
+    "person info": {
+        "First Name": "Kent Angelo ",
+        "Middle Initial": "C.",
+        "Last Name": "Cabanag",
+        "Place of Birth": "Infanta Quezon",
+        "Gender": "Male",
+        "Date of Birth": "November 5 1998",
+        "Religion": "Roman Catholic",
+        "Nationality": "Filipino",
+        "Marital Status": "Single"
+    },
+    "Contact info": {
+        "Contact": "09876543210",
+        "Email": "personal@gmail.com"
+    },
+    "Objectives": {
+        "Career Objective": "To apply in a position that would fully correspond and utilize my skills and capabilities to contribute in the companys success and achievement in fulfilling its mission-vision and its pursuit for excellence for the benefit of others."
+    },
+    "Educational Background": {
+        "2014- 2018": "Polytechnic University of the Philippines- Manila",
+        "2010- 2014": "Infanta National High School",
+        "2006- 2010": "General Nakar Central Elementary School"
+    },
+    "Skills": {
+        "skill 1": "- Talent Management and Recruitment",
+        "skill 2": "- Benefits and Compensation",
+        "skill 3": "- Professionalism and strong work ethic",
+        "skill 4": "- Teamwork and collaboration"
+    }
+
+}
