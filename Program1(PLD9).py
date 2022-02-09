@@ -20,10 +20,33 @@ pdf = FPDF('P', 'cm', 'A4')
 pdf.add_page()
 
 with open('personalresume.json') as datafile:
-	infos = json.load(datafile)
+	info = json.load(datafile)
 
+# Personal details
+First_name = info ["personal info"]["First Name"]
+Middle_Initial = info ["personal info"]["Middle Initial"]
+Last_name = info  ["personal info"]["Last Name"]
+Place_of_Birth = info  ["personal info"]["Place of Birth"]
+Gender = info  ["personal info"]["Gender"]
+Date_of_Birth = info  ["personal info"]["Date of Birth"]
+Marital_Status = info  ["personal info"]["Marital Status"]
+Religion = info  ["personal info"]["Religion"]
+Nationality = info  ["personal info"]["Nationality"]
 
+# Objective
+Objective = info ["Objective"]["Career Objective"]
 
+# Contact Information
+Contact = info ["Contact Information"]["Contact"]
+Email = info ["Contact Information"] ["Email"]
 
+# Educational Background
+College = info ["Educational Background"]["2014-2018"]
+Highschool = info ["Educational Background"]["2010-2014"]
+Elementary = info ["Educational Background"]["2006-2010"]
 
-
+# Skills
+skill_1 = info ["Skills"]["skill 1"]
+skill_2 = info ["Skills"]["skill 2"] 
+skill_3 = info ["Skills"]["skill 3"] 
+skill_4 = info ["Skills"]["skill 4"]
